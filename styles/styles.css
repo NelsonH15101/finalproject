@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:600,800');
+
+body{
+    font-family: 'Dosis' , sans-serif;
+    font-size:  200%;
+    color: #fff;
+    text-shadow: 1px 1px 1px #666;
+}
+.navbar{
+    background: #297fb8;
+    border-bottom: none;
+    padding: 1% 0;
+}
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 6% 10%;
+    width: 85%;
+}
+.navbar-nav li{
+    margin-right: 20px;
+}
+.navbar-inverse .navbar-nav li a{
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    background: #5398c6;
+}
+.navbar-header{
+    padding-bottom: 5px;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #5398c6;
+}
+.navbar-inverse .navbar-toggle{
+    border-color: #5398c6;
+
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: #5398c6;
+}
+.about-section-row{
+    margin-top: 10%;
+}
+
+img.banner{
+    width: 100%;
+}
+h1{
+    font-size: 300%;
+    font-weight: 800;
+    text-shadow: 2px 2px 2px #666;
+}
+h2{
+    font-size: 210%;    
+}
+h3{
+    font-size: 150%;    
+    max-width: 80%;
+    margin: 0 auto;
+}
+p{
+    font-size: 120%;
+    padding: 6%;
+}
+img{
+    margin: 0 auto;
+}
+.icon{
+    max-width: 200px;
+    margin: 1% auto;
+}
+.social{
+    font-size: 500%;
+}
+.social a{
+    padding: 3%;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.social a:hover{
+    color: #d5d5d5;
+}
+#home{
+    padding-top: 6%;
+}
+#about{
+    padding: 7% 0;
+    background: #1fb8eb;
+}
+#features{
+    padding: 7% 0 5%;
+    background: #ff9800;
+}
+#portfolio{
+    padding: 7% 0 5%;
+    background: #00b2ca;
+}
+#connect{
+    padding: 0 0 12%;
+    background: #673ab7;
+}
+.row{
+    margin: 0;
+}
+@media (max-width: 768px){
+    h1{
+        font-size: 170%;
+    }
+    h2{
+        font-size: 160%;
+    }
+    h3{
+        font-size: 120%;
+        max-width: 90%;
+    }
+    p{
+        padding-top: 3%;
+        font-size: 100%;
+    }
+    #code{
+        max-width: 50%;
+    }
+    .col-sm-4 .icon{
+        max-width: 15%;
+    }
+    .col-md-4 .icon{
+        max-width: 15%;
+        margin-bottom: 8%;
+    }
+    .social{
+        font-size: 200%;
+    }
+    #home{
+        padding-top: 66px;
+    }
+    #about, #features, #portfolio, #connect{
+        padding-top: 5%;
+    }
+    .navbar-brand{
+        width: 60%;
+    }
+}
+@media (max-width: 290px){
+    h1{
+        font-size: 150%;
+    }
+}
